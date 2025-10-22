@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*-------------------------------------------------------------------
+	파일정의 :폰트 스타일
+	작성날짜 :2019-09-20 지성만
+	참고사항 :폰트별 서버지정
+	분류순서 :레이아웃 > 공통디자인 > 컨텐츠
+	속성순서 :표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+    ## Font
+-------------------------------------------------------------------*/
+/* 본고딕 */
+@font-face {
+	font-family:"NSM";
+	font-weight:300;
+	font-style:normal;
+	src:url("../fonts/notokr-medium.eot");
+	src:local("※"), url('../fonts/notokr-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/notokr-medium.woff2') format('woff2'), url('../fonts/notokr-medium.woff') format('woff')
+}
+@font-face {
+	font-family:"NSL";
+	font-style:normal;
+	src:url("../fonts/notokr-light.eot");
+	src:local("※"), url("../fonts/notokr-light.eot?#iefix") format("embedded-opentype"), url('../fonts/notokr-light.woff2') format('woff2'), url("../fonts/notokr-light.woff") format("woff")
+}
+@font-face {
+	font-family:"NSR";
+	font-style:normal;
+	src:url("../fonts/notokr-regular.eot");
+	src:local("※"), url("../fonts/notokr-regular.eot?#iefix") format("embedded-opentype"), url('../fonts/notokr-regular.woff2') format('woff2'), url("../fonts/notokr-regular.woff") format("woff")
+}
+@font-face {
+	font-family:"NSB";
+	font-style:normal;
+	src:url("../fonts/notokr-bold.eot");
+	src:local("※"), url("../fonts/notokr-bold.eot?#iefix") format("embedded-opentype"), url('../fonts/notokr-bold.woff2') format('woff2'), url("../fonts/notokr-bold.woff") format("woff")
+}
